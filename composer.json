@@ -1,0 +1,19 @@
+{
+    "name": "fksk/moriken-line-bot",
+    "authors": [{
+        "name": "fksk",
+        "email": "fksk.sh15@gmail.com"
+    }],
+    "require": {
+        "php": "^7",
+        "linecorp/line-bot-sdk": "^2.2",
+        "ext-mbstring": "*",
+        "slim/slim": "^3.8",
+        "monolog/monolog": "^1.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "MorikenBot\\": "src/"
+        }
+    }
+}
